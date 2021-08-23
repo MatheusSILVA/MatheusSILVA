@@ -1,10 +1,6 @@
-nome : Gerar dados
 
-em :
-  cronograma : # executar a cada 12 horas
     - cron : " * * / 12 * * * "
-  workflow_dispatch :
-
+  workflow_dis
 empregos :
   construir :
     nome : Trabalhos para atualizar dados

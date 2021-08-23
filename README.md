@@ -1,6 +1,26 @@
-- <h4>👋 Olá, eu me chamo @MatheusSILVA</h4>
-- <h4>🌱 No momento estou aprendendo JS, CSS e IONIC</h4>
-- <h4>👀 Estou interessado em adquirir novos conhecimentos!!</h4>
-- <h4>💞️ Estou procurando colaborar, compartilahndo meu conhecimento!!</h4>
-- <h4>📚 Estou cursando oúltimo ano em Análise e Desenvolvimento de Sistemas!!</h4>
+nome : Gerar dados
+
+em :
+  cronograma : # executar a cada 12 horas
+    - cron : " * * / 12 * * * "
+  workflow_dispatch :
+
+empregos :
+  construir :
+    nome : Trabalhos para atualizar dados
+    roda em : ubuntu-mais recente
+    passos :
+      # Animação de cobra
+      - usa : Platane / snk @ master
+        id : snake-gif
+        com :
+          github_user_name :   ELLEN2121
+          svg_out_path : dist / github-Contribution-grid-snake.svg
+
+      - usa : crazy-max/ghaction-github-pages@v2.1.3
+        com :
+          target_branch : output
+          build_dir : dist
+        env :
+          GITHUB_TOKEN : $ {{secrets.GITHUB_TOKEN}}
 

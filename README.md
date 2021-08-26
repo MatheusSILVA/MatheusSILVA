@@ -1,4 +1,6 @@
-<img align="center" alt="Rafa-yoda" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif">
+<div align="center">
+  <img align="center" alt="planeta" src="https://cdn.discordapp.com/attachments/795358919417397249/825430589581688872/hi.gif">
+</div>
 
 <div align="center">
   <a href="https://github.com/MatheusSILVA">

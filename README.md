@@ -1,6 +1,6 @@
-<div align="center">
+<!--<div align="center">
   <img align="center" alt="planeta" src="">
-</div>
+</div>-->
 
 <div align="center">
   <a href="https://github.com/MatheusSILVA">
